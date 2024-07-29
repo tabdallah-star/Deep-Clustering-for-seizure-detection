@@ -9,7 +9,7 @@ from scipy.optimize import linear_sum_assignment
 from scipy.stats import wilcoxon
 import time
 
-input_shape = (178, 1)
+input_shape = (256, 1)
 hidden_units = 64
 n_clusters = 2
 update_interval = 10
