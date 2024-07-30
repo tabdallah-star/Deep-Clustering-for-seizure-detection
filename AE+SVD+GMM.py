@@ -13,7 +13,7 @@ input_shape = (256, 1)
 hidden_units = 64
 n_clusters = 2
 update_interval = 10
-pretrain_epochs = 50
+pretrain_epochs = 100
 ds_name = 'EEG_dataset'
 
 def model_conv(filters_1=128, filters_2=64, kernel_size=3, activation='relu', load_weights=True):
