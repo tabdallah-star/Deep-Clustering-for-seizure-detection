@@ -4,5 +4,6 @@ The publi UCI Epileptic Seizure Dataset can be found online: https://www.kaggle.
 The CHU dataset is a local private dataset
 
 2) Slidding Window with 30% overlap to the CHU dataset
+   
    INPUT: the raw EEG data
    OUTPUT: 
