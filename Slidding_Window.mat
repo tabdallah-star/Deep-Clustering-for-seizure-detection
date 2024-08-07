@@ -1,7 +1,11 @@
 clear all
 clc
-
+% Load the event.mat (a matlab matrix) which contains information about epileptic seizure events.
+% event.mat is a structure with fields that indicate the number of seizures,
+% the start time (t0), and the end time (tEnd) of each seizure event.
 load('event.mat')
+% Load the EEG data file which contains the EEG signals. Each row in the
+% EEG matrix represents a channel, and each column represents the time information.
 load('200312W-AEX_0005.mat')
 fileID = fopen('200312W-AEX_0005Info.txt','r');
 nbevt = fscanf(fileID,'[nbevt] %d\n\n',1);
