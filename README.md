@@ -7,7 +7,7 @@
 
 # 2) Slidding Window with 30% overlap on the CHU dataset:
    
-  File: Slidding_Window.mat 
+  File: Slidding_Window.m 
    
    INPUT: The raw EEG data
 
